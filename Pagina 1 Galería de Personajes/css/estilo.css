@@ -1,0 +1,304 @@
+/*    General ---------------------------------------------------  */
+* {
+font-family: 'Skranji';
+}
+
+body {
+	background-image: url(../imagenes/cementerio.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+p {
+	
+}
+
+div {
+	
+}
+
+header {
+
+}
+h1 {
+	margin-top: 0;
+	font-family: 'Skranji';
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: whitesmoke;
+
+}
+
+h3 {
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: whitesmoke;
+}
+
+span {
+
+}
+
+ul {
+	list-style-type: none;
+	display: inline-flex;
+	padding-bottom: 20px;
+	position: relative;
+	bottom: 20px;
+
+}
+
+li {
+	margin-right: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*Los enlaces y sus pseudoclases ------------------------------------------*/
+
+a:link {
+	color: whitesmoke;
+}
+
+a:hover {
+	color: #c4ff0d;
+}
+
+a:visited {
+	color: whitesmoke;
+}
+/*Termina general-------------------------------------------*/
+
+
+
+
+
+/* Inicio de Clases de la pagina INICIO/INDEX */
+
+.bloquePrincipal{
+	position: right;
+	height: 300px;
+	padding-top: 60px;
+	/*background-image: url(../imagenes/escaleras.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;   HAY QUE RE AJUSTAR*/
+}
+
+.menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	width: 100%;
+	max-width: 1000px;
+	background-color: #e30842;
+    height: 60px;
+
+}
+
+.caja1 {
+	margin-left: 300px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+
+.personaje {
+	display: inline-block;
+	width: 20%;
+	height: 265px;
+	background-color: whitesmoke;
+	margin-left: 20px;
+    margin-right: 20px;
+	border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    padding-top: 15px;
+	background-image: url(../imagenes/fondotarjeta.png);
+}
+
+@media screen and (max-width:850px) {
+	.personaje {
+	width: 40%;
+	margin-top: 45px; }
+	.caja1 {
+		margin-left: 60px;
+	}
+	.menu-fixed {
+		float: right;
+	}
+}
+
+
+@media screen and (max-width:600px) {
+	.personaje { display: block;
+	width: 75%;
+	margin-top: 45px;
+	padding-bottom: 30px; }
+}
+
+
+@media screen and (max-width:730px) {
+	.caja1 { margin-left: 40px;}
+}
+	
+
+
+
+
+
+.bloqueSecundario {
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 35px;
+	padding-bottom: 80px;
+}
+
+
+.posicionLogo {
+	width: 160px;
+	height: 45px;
+	padding-right: 260px;
+	padding-top: 9px;
+}
+
+
+.icono {
+	width: 100%;
+	height: 170px;
+	border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.h2tarjeta {
+	margin: 0px 0px 0px 0px;
+	-webkit-text-stroke-width: 0.3px;
+	-webkit-text-stroke-color: whitesmoke;
+}
+
+.habilidades {
+	margin: 0px 0px 0px 0px;
+	font-family: monospace;
+	font-size: 16px;
+	background-color: aliceblue;
+	height: 100px;
+	overflow-y: scroll;
+}
+ 
+
+.botoncito {
+	float: right bottom;
+ }
+
+
+
+
+
+
+/* Estas clases son de la pagina INSTRUCCIONES*/
+
+.Principal {
+	padding-left: 200px;
+    padding-top: 100px;
+	width: 100%;
+	display: inline-block;
+    margin-left: 15px;
+	place-items: center;
+}
+/* no muy segura si necesitaremos en esta pagina 2 bloques (?)
+.Secundario {
+	background-color: #e30842;
+	width: 30%;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+}
+*/
+
+.cuadroDescarga {
+	display: inline-block;
+	height: 298px;
+	width: 250px;
+	background-color: #ff9317;
+	background-image: url(../imagenes/cuadrodescarga.png);
+	background-position: center;
+	background-size: contain;
+	margin: 0px 17px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.textoDescarga {
+	margin: 0px 17px;	
+	position: relative;
+	top: 10px;
+} 
+
+.iconoDescarga {
+	position: relative;
+	width: 100%;
+	height: 160px;
+	top: 10px;
+}
+
+.Volver {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 10px;
+	background-color: #e30842;
+}
+
+
+
+ /* Estas clases son para la pagina --------------------------NOSOTROS----------------------------------------*/
+
+.nosotros1 {
+	width: 20%;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+.nosotros2 {
+	width: 70%;
+	float: right;
+	padding-top: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.imagenNosotros {
+	width: 270px;
+	margin: 20px;
+}
+
+.textoNosotros {
+	background-color: whitesmoke;
+	opacity: 0.5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Terminan clases -----------------------------------------*/
+
+
+
+/* Aquí empiezan los FONTS */
+@font-face {
+	font-family: 'Skranji';
+	src: url(./fuentes/Skranji-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Asignación de colores ------------------------------------------- */
+
+
+
+/* Este apartado es para el Responsive y Mobile First*/
+
+
+
+
+/*Aqui termina el responsive------------------------*/
