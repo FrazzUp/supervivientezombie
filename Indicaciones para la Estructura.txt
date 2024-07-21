@@ -1,0 +1,21 @@
+Esta pagina se va a dividir en 5 paginas con # secciones en la HomePage. 
+Las páginas serás las siguientes: Inicio, Cascadas minimalistas con formulario final. 
+Como Jugar, Cascadas minimalistas.
+Galería, Flexbox.
+Sobre nosostros. Texto con Redes Sociales y LinkedIn.
+
+Básicamente para las paginas anteriores me quiero basar del concepto de esta pagina: 
+https://savvily.es/libros/codigo-sostenible/
+
+
+
+Aquí tomaremos la idea para el diseño de las Cards: 
+https://codigofuente.io/diseno-de-tarjeta-de-estilo-rpg-con-html-css/
+
+
+<!----------------- Otra inspiración que podría ser la Versión 2.0 ----------------------------------->
+
+En una serie de capturas planeo poner como acomodaría yo el contenido adaptado a mi proyecto. Guardado en la Carpeta: Versión 2.0 Diseño
+
+https://demo.templatemonster.com/demo/224088.html?_gl=1*8398e0*_ga*MTg2NDI5MDk4Mi4xNzE1MTQ0NDA3*_ga_FTPYEGT5LY*MTcxNTE0NDQwNy4xLjEuMTcxNTE0NDQ5OS40Mi4wLjA. 
+
